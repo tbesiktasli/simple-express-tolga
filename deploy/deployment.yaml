@@ -15,8 +15,8 @@ spec:
         app: my-app-2
     spec:
       containers:
-      - name: simple-express
-        image: isjustintime/simple-express
+      - name: simple-express-tolga
+        image: tolgabesiktasli/simple-express-tolga
         ports:
         - containerPort: 8080
         livenessProbe:
